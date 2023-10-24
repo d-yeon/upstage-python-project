@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "upstage-python-project"
+version = "0.1.0"
+description = ""
+authors = ["d-yeon <d.yeon819@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.14.0"
+django = "^4.2.6"
+gtts = "^2.4.0"
+pyqt5-tools = "^5.15.9.3.3"
+googletrans = "4.0.0-rc1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
