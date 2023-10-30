@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "upstage-python-project"
+name = "crawling"
 version = "0.1.0"
 description = ""
 authors = ["d-yeon <d.yeon819@gmail.com>"]
@@ -8,17 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 selenium = "^4.14.0"
-django = "^4.2.6"
-gtts = "^2.4.0"
-pyqt5-tools = "^5.15.9.3.3"
-googletrans = "4.0.0-rc1"
-speechrecognition = "^3.10.0"
-wheel = "^0.41.2"
-pyaudio = "^0.2.13"
+webdriver-manager = "^4.0.1"
 
-
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.26.0"
 
 [build-system]
 requires = ["poetry-core"]
